@@ -14,3 +14,7 @@ p{
     text-align: center;
     margin: auto;
 }
+
+.first,.second,.third{
+    display: none;
+}
