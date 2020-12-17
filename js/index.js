@@ -9,3 +9,9 @@ $(".first").click(function(e) {
 $(".second").click(function(e) {
    $(".third").css({"display":"block"});
 });
+
+$(".third").click(function(e) {
+    $(".card-body").text("happy birthday");
+ });
+
+ 
