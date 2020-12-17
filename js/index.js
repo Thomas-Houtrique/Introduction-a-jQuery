@@ -14,4 +14,8 @@ $(".third").click(function(e) {
     $(".card-body").text("happy birthday");
  });
 
- 
+ $('.third').on('click', function () { 
+    var obj = document.createElement("audio");
+        obj.src = "son1.mp3"; 
+        obj.play(); 
+});
