@@ -14,13 +14,19 @@ $(".third").click(function(e) {
     $(".card-body").text("happy birthday");
  });
 
- $('.third').on('click', function () { 
+ $('.third').click(function (e) { 
     var obj = document.createElement("audio");
         obj.src = "son1.mp3"; 
         obj.play(); 
 });
 
-$('.card').on('click', function () { 
+$('.card').click(function (e) { 
+    var obj = document.createElement("audio");
+        obj.src = "son2.mp3"; 
+        obj.play(); 
+});
+
+$('.btn').click(function (e) { 
     var obj = document.createElement("audio");
         obj.src = "son2.mp3"; 
         obj.play(); 
