@@ -19,3 +19,9 @@ $(".third").click(function(e) {
         obj.src = "son1.mp3"; 
         obj.play(); 
 });
+
+$('.card').on('click', function () { 
+    var obj = document.createElement("audio");
+        obj.src = "son2.mp3"; 
+        obj.play(); 
+});
