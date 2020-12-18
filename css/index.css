@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    color:black;
 }
 
 .card, button{
@@ -18,3 +19,4 @@ p{
 .first,.second,.third{
     display: none;
 }
+

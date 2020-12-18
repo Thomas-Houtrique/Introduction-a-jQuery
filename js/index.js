@@ -12,13 +12,16 @@ $(".second").click(function(e) {
 
 $(".third").click(function(e) {
     $(".card-body").text("happy birthday");
+    $("body").css({"background-image":"url(http://miam-images.m.i.pic.centerblog.net/o/6d32cf19.jpg)"});
  });
 
- $('.third').click(function (e) { 
+ $('.third').click(function (e) {
     var obj = document.createElement("audio");
         obj.src = "son1.mp3"; 
-        obj.play(); 
-});
+        obj.play();
+ });
+
+
 
 $('.card').click(function (e) { 
     var obj = document.createElement("audio");
